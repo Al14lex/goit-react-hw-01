@@ -1,0 +1,13 @@
+
+.friendsList{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ .friendsItem{
+    list-style-type: none;
+    border: 2px solid;
+    border-radius: 7px;
+    width: 80px;
+}

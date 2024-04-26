@@ -1,0 +1,21 @@
+.online{
+    color: #20a620;
+}
+.offline{
+    color:#db0e0eb0;
+}
+.friendsContainer{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.nameFriend{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.status{
+    font-size: 14px;
+}

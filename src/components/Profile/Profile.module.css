@@ -1,16 +1,8 @@
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
+
 .mainContainer{
     background-color:#eaeaeabe;
     max-width: 300px;
-    margin: 50px auto;
+    margin: 0 auto 50px;
     border: 2px solid;
     border-radius: 8px;
 
@@ -22,7 +14,7 @@ h6 {
         padding: 15px 0;
         gap: 7px;
 }
-img{
+.face{
     width: 120px;
     height: 120px;
     background-color: #383838;
@@ -40,16 +32,18 @@ img{
     font-size: 18px;
     font-weight: 400;
 }
-ul{
+.profList{
     display: flex;
     flex-direction: row;
     background-color: #abababa9;
     margin: 0;
     height: 70px;
     padding: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 
 }
-li{
+.profItem{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +55,6 @@ li{
     border-color: #7a7a7a;
    
 }
-ul :first-child {
+.profList :first-child {
     border-left: 0px;
 }

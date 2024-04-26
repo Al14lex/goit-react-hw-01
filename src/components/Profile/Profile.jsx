@@ -5,21 +5,21 @@ export default function Profile({ name, tag, location, image = "https://cdn-icon
     return (
             <div className={css.mainContainer}>
             <div className={css.container}>
-                <img src={image} alt="User avatar"/>
+                <img className={css.face} src={image} alt="User avatar"/>
                 <p className={css.user}>{name}</p>
                 <p className={css.text}>@{tag}</p>
                 <p className={css.text}>{location}</p>
             </div>
-            <ul>
-                <li key="followers">
+            <ul className={css.profList}>
+                <li key="followers" className={css.profItem}>
                     <span>Followers</span>
                     <span><strong>{followers}</strong></span>
                 </li>
-                <li key="views">
+                <li key="views" className={css.profItem}>
                     <span>Views</span>
                     <span><strong>{views}</strong></span>
                 </li>
-                <li key="likes">
+                <li key="likes" className={css.profItem}>
                     <span>Likes</span>
                     <span><strong>{likes}</strong></span>
                 </li>
