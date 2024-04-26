@@ -1,8 +1,16 @@
- export default function App() {
+import userData from "../userData.json";
+import Profile from "./Profile";
+
+export default function App() {
   return (
-    <div>
-          <h1>Title</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium recusandae consequuntur porro repudiandae incidunt sunt, ratione minus voluptas autem perspiciatis. Dignissimos repellat quasi quo blanditiis aliquid eveniet nam ab.</p>
-    </div>
-  )
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
+  );
 }
