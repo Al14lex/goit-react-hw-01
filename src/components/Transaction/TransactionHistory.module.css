@@ -1,0 +1,28 @@
+.tableTrans{
+    width: 600px;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+.tableTrans th,
+.tableTrans td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+.tableTrans th {
+    background-color: #212121;
+    color:#ffffff;
+    
+}
+
+.tableTrans tbody tr:nth-child(even) {
+    background-color: #d5d5d5;
+}
+
+.tableTrans tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.tableTrans tbody tr:hover {
+    background-color: #f0f0f0;
+}
