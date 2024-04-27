@@ -11,4 +11,8 @@
     border: 2px solid;
     border-radius: 7px;
     width: 80px;
+    transition: transform 0.2s ease-in-out;
+}
+ .friendsItem:hover {
+    transform: scale(1.1);
 }
